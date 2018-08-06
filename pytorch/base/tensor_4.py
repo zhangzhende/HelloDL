@@ -1,7 +1,15 @@
-"""
-主要讲Tensor的内容
-"""
+
 import torch as t
+
+"""
+主要讲Tensor的内容:
+创建Tensor
+Tensor 的常用操作,调整tensor的形状
+索引操作
+gather(input,dim,index)操作
+scatter_操作，类似于gather操作的逆操作
+"""
+
 
 
 #TODO ===================创建Tensor===================

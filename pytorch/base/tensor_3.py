@@ -1,6 +1,4 @@
-"""
-小试牛刀---CIFAR-10分类
-"""
+
 import torch.nn as nn
 import torch.nn.functional as Fun
 import torch.optim as optim  #优化器
@@ -11,6 +9,11 @@ import torchvision.transforms as transforms
 from torchvision.transforms import ToPILImage
 import matplotlib.pyplot as plt
 show=ToPILImage()#可以把Tensor转换成Image，方便可视化
+
+
+"""
+小试牛刀---CIFAR-10分类
+"""
 
 #TODO 准备数据，下载和加载loader
 def prepareData():
